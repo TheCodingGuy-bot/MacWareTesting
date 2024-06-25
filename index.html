@@ -54,9 +54,11 @@
           </button>
           
           <script type="text/javascript">
-    document.getElementById("btn").onclick = function () {
-        location.href = "https://discord.com/invite/getmacware";
-    };
+    const btn = document.getElementById("btn");
+
+btn.addEventListener("click", () => {
+  location.href = "https://discord.com/invite/getmacware";
+});
 </script>
           <!-- End Button buying -->
         </div>
