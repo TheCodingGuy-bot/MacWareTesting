@@ -36,8 +36,8 @@
         <!-- Control -->
         <div class="control">
           <!-- Start Button buying -->
-          <a href = "discord.gg/getmacware">
-          <button class="btn">
+      
+          <button id="btn">
             <!-- the Price -->
             <span class="price">
               No keys + Free
@@ -52,7 +52,12 @@
               Buy Now
             </span>
           </button>
-          </a>
+          
+          <script type="text/javascript">
+    document.getElementById("btn").onclick = function () {
+        location.href = "https://discord.com/invite/getmacware";
+    };
+</script>
           <!-- End Button buying -->
         </div>
       </div>
