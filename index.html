@@ -1,86 +1,161 @@
-<html>
-  
-  <head>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
-  <body>
-    <div id="container">
-      <!-- Start Product details -->
-      <div class="product-details">
-        <!-- Product Name -->
-        <h1>
-          MacWare
-        </h1>
-        <!-- the Product rating -->
-        <span class="hint-star star">
-          <i class="fa fa-star" aria-hidden="true">
-          </i>
-          <i class="fa fa-star" aria-hidden="true">
-          </i>
-          <i class="fa fa-star" aria-hidden="true">
-          </i>
-          <i class="fa fa-star-half-o" aria-hidden="true">
-          </i>
-          <i class="fa fa-star-o" aria-hidden="true">
-          </i>
-        </span>
-        <!-- The most important information about the product -->
-        <p class="information">
-          <ew>
-            Dominate the Roblox exploiting market with our leading execution platform,
-            featuring cutting-edge tools and a seamless user experience tailored for
-            maximum efficiency.
-          </ew>
-        </p>
-        <!-- Control -->
-        <div class="control">
-          <!-- Start Button buying -->
-      
-          <button class="btn" onclick="window.location.href='https://discord.com/invite/getmacware'">
-  <span class="price">
-    199 Robux
-  </span>
-
-  <span class="shopping-cart">
-    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-  </span>
-
-  <span class="buy">
-    Buy Now
-  </span>
-</button>
-          <!-- End Button buying -->
-        </div>
-      </div>
-      <!-- End Product details -->
-      <!-- Start product image & Information -->
-      <div class="product-image">
-        <img src="https://github.com/TheCodingGuy-bot/MacWareWebTest/blob/main/MacWareLogo.png?raw=true"
-        alt="MacWare">
-        <!-- product Information-->
-        <div class="info">
-          <h2>
-            The Description
-          </h2>
-          <ul>
-            <li>
-              <strong>
-                Quick
-              </strong>
-              Settings
-            </li>
-            <li>
-              <strong>
-                Quick
-              </strong>
-              Themes
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- End product image -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacWare</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        
+        .container {
+            background-color: #111;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        
+        .feature {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            width: 150px;
+        }
+        
+        .feature h3 {
+            margin-top: 0;
+        }
+        
+        .feature p {
+            font-size: 0.9em;
+        }
+        
+        .pricing {
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .pricing h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        
+        .pricing p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .pricing ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .pricing li {
+            margin-bottom: 10px;
+        }
+        
+        .pricing li::before {
+            content: "\f00c";
+            font-family: FontAwesome;
+            font-size: 1.2em;
+            margin-right: 10px;
+        }
+        
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        
+        .more-features {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MacWare</h1>
+        <p>Dominate the Roblox exploiting market with our leading execution platform, featuring cutting-edge tools and a seamless user experience tailored for maximum efficiency.</p>
+        <button>Start your project+</button>
     </div>
-  </body>
 
+    <div class="container">
+        <h2>MacWares Features:</h2>
+        <p>What does MacWare have?</p>
+        <div class="features">
+            <div class="feature">
+                <h3>Customizable</h3>
+                <p>MacWare has fully customizable settings to your liking</p>
+            </div>
+            <div class="feature">
+                <h3>Cost-Effective</h3>
+                <p>Competitors cost more and are less effective than MacWare, making it the more affordable option</p>
+            </div>
+            <div class="feature">
+                <h3>Quick</h3>
+                <p>Quick execution times</p>
+            </div>
+            <div class="feature">
+                <h3>Expert Support</h3>
+                <p>MacWares is here to provide you with expert support and guidance when any errors of the tool occur.</p>
+            </div>
+        </div>
+        <div class="more-features">
+            <button>See pricing+</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Low Cost</h2>
+        <p>MacWare costs robux</p>
+    </div>
+
+    <div class="container pricing">
+        <h2>MacWare</h2>
+        <p>199 Robux</p>
+        <ul>
+            <li>Simple features</li>
+            <li>Basic support</li>
+            <li>Affordable pricing</li>
+        </ul>
+        <button>Get started+</button>
+    </div>
+</body>
 </html>
